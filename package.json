@@ -1,0 +1,19 @@
+{
+  "name": "egg-alu0100886306-science",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0100886306/egg-alu0100886306-science.git"
+  },
+  "author": "Christian Ramos Barrera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100886306/egg-alu0100886306-science/issues"
+  },
+  "homepage": "https://github.com/alu0100886306/egg-alu0100886306-science#readme"
+}
