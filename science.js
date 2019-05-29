@@ -110,6 +110,24 @@ specialForms["v/"] = function(args, env) {
   return result;
 }
 
+specialForms["pow"] = function(args, env) {
+  if (args.length != 2)
+    throw new Error("Bad use of pow need 2 args")
+  args = args.map((arg) => {
+        return arg.evaluate(env);
+  });
+  return Math.pow(args[0],args[1]);
+}
+
+specialForms["sqrt"] = function(args, env) {
+  if (args.length == 1)
+    throw new Error("Bad use of sqrt need 1 arg")
+  args = args.map((arg) => {
+        return arg.evaluate(env);
+  });
+  return Math.sqrt(args[0]);
+}
+
 /*******************************************/
 
 module.exports = {specialForms, topEnv};

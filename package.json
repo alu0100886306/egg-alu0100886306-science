@@ -1,8 +1,8 @@
 {
-  "name": "egg-alu0100886306-science",
-  "version": "1.0.0",
+  "name": "@alu0100886306/egg-science",
+  "version": "1.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "science.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
